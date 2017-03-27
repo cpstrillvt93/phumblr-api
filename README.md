@@ -1,5 +1,13 @@
 Phumblr API
 
+# ERDs, User Stories, and Wireframes
+
+http://i.imgur.com/ecllvpO.jpg
+
+http://i.imgur.com/nI2fd9v.jpg
+
+http://i.imgur.com/zQT4gXY.jpg
+
 # rails-api-template
 
 A template for starting projects with `rails-api`. Includes authentication.
