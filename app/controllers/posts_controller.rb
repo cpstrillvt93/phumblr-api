@@ -4,7 +4,7 @@ class PostsController < OpenReadController
 
   # GET /posts
   def index
-    @posts = current_user.posts.all
+    @posts = Post.all
 
     render json: @posts
   end
