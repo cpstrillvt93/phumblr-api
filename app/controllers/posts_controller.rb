@@ -45,9 +45,10 @@ class PostsController < OpenReadController
   def set_post
     @post = current_user.posts.find(params[:id])
   end
-
+  private :set_post
   # Only allow a trusted parameter "white list" through.
   def post_params
-    params.require(:post).permit(:title, :body, :user_id)
+    params.require(:post).permit(:title, :body)
   end
+  private :post_params
 end
